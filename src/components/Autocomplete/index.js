@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const List = () => {
+const Autocomplete = () => {
   const [countries, setCountries] = useState([]);
   const [filteredCountriesListItems, setFilteredCountriesListItems] = useState(
     []
@@ -78,4 +78,4 @@ const List = () => {
   );
 };
 
-export default List;
+export default Autocomplete;

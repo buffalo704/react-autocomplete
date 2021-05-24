@@ -1,13 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
-import List from "./components/list";
+import Autocomplete from "./components/Autocomplete";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <List />
+        <Autocomplete />
       </header>
     </div>
   );
